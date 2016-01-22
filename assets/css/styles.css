@@ -1,0 +1,56 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%
+}
+
+html {
+  background: url(../../assets/images/stars.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+.body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+img {
+  height: 180px;
+}
+
+p {
+  width: 900px;
+  font-family: 'Inconsolata';
+  color: white;
+  font-size: 22px;
+}
+
+strong {
+  font-weight: 400;
+}
+
+.time {
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.classified {
+  color: #e02411;
+}
+
+i {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 26px;
+}
+
+a {
+  color: white;
+}
